@@ -33,28 +33,28 @@ The plugin works by removing the selected filters from the filters section of th
 1. Navigate to your target dashboard and add all relevant filters.
 2. Add the following dashboard script:
 ```javascript
-let config = {
+dashboard.orFiltersConfig = {
 	orFilters:[
 		{
-			table:'product',
-			column:'productCategory'
+		table:'product',
+		column:'productCategory'
 		},
 		{
-			table:'Customer',
-		  column:'Country'
+		table:'employees',
+		column:'name'
 		}
-		
-	],
+		],
 	pk:{
 		table: 'key',
 		column:'keynum',
 		datatype:'numeric'
 		
-		}
+		},
+	includeWidgets:[],   //Optional: the widgets in this array will be the only ones that the plugin will modify
+	excludeWidgets:[]   //Optional: The widgets in this array will be the only ones that the plugin won't modify
 	};
 
-
-prism.plugins.orFilters.dashboardLevelOrFilters(config);
+prism.plugins.orFilters.applyOrFilters();
 ```
 3. Save the script and refresh the page.
 
