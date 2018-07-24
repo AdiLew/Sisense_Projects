@@ -63,3 +63,4 @@ prism.plugins.orFilters.applyOrFilters();
 
 
 ## Limitations
+* This Script was not tested on cascaded filters, and will not necessarily work on them.
