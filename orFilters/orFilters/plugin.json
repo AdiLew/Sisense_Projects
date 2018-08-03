@@ -1,0 +1,13 @@
+{
+    "name": "orFilters",
+    "source": [
+        "bindOnceService.js",
+        "main.6.js"
+    ],
+    "style": [],
+    "pluginInfraVersion": 2,
+    "folderName": "orFilters",
+    "lastUpdate": "2018-08-01T13:23:54.824Z",
+    "isEnabled": true,
+    "version": "0.2"
+}
