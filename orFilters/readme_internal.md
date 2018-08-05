@@ -1,10 +1,10 @@
 # Or Filters
 **Author**: Adi Lewenstein  
-**Last updated**: Jul 20 2018  
+**Last updated**: Aug 3rd 2018  
 **Plugin Version**: 1.0  
-**Last Tested on Version**: 7.1.2  
+**Last Tested on Version**: 7.2  
 **Originally Developed for**: Sandpiper Books *(tier 4)*  
-**Link to JS Library**:
+**Link to JS Library**:  
 **Community Article**:  
 
 ## Description
